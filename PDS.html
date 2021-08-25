@@ -182,18 +182,100 @@
                          <div id="flush-collapseSix" class="accordion-collapse collapse"
                               aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body">
-                                   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8623882304960753"
-                                        crossorigin="anonymous"></script>
+                                   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8623882304960753"
+                                        crossorigin="anonymous"></script> -->
                                    <!-- banner-advetrise -->
-                                   <ins class="adsbygoogle"
+                                   <!-- <ins class="adsbygoogle"
                                         style="display:inline-block;width:728px;height:90px"
                                         data-ad-client="ca-pub-8623882304960753"
                                         data-ad-slot="7266888682"></ins>
                                    <script>
                                         (adsbygoogle = window.adsbygoogle || []).push({});
-                                   </script>
+                                   </script> -->
                                    <br />
-                                   Q6. Explain identity and membership operator with example.
+                                   <b> Q6. Explain identity and membership operator with example. </b>
+                                   <br />
+<b>Ans:</b><br>
+Python range() function:<br><br>
+<p>
+range() is a built-in function of Python. It is used when a user needs to perform an action 
+for a specific number of times. range() in Python(3.x) is just a renamed version of a function 
+called xrange in Python(2.x). The range() function is used to generate a sequence of numbers.
+</p>
+<p>
+range() is commonly used in for looping hence, knowledge of the same is the key aspect when 
+dealing with any kind of Python code. The most common use of the range() function is to iterate
+sequence type (List, string, etc.. ) with for and while loop.
+</p>
+Python range() Basics:<br><br>
+<p>
+In simple terms, range() allows the user to generate a series of numbers within a given range.
+Depending on how many arguments the user is passing to the function, the user can decide where 
+that series of numbers will begin and end as well as how big the difference will be between one
+number and the next. range() takes mainly three arguments.
+</p>
+Range Parameters:<br><br>
+<p>
+Following are the range function parameters that we use in python:
+</p>
+<p>start: This is the starting parameter, it specifies the start of the sequence of numbers in a range function.</p>
+<p>stop: It is the ending point of the sequence, the number will stop as soon as it reaches the stop parameter.</p>
+<p>step: The steps or the number of increments before each number in the sequence is decided by the step parameter.</p>
+
+Syntax: range(start, stop, step)
+<br><br>
+Example 1:
+<code>
+     <pre>
+# range() with one parameter
+for n in range(5):
+     print(n, end = " ")
+print()
+
+# range() with two parameter
+for n in range(5, 10):
+     print(n, end = " ")
+print()
+
+# range() with three parameter
+for n in range(1, 10, 2):
+     print(n, end = " ")</pre>
+</code>
+Output:
+<pre>
+0 1 2 3 4 
+5 6 7 8 9 
+1 3 5 7 9
+</pre>
+Example 2:
+<code>
+     <pre>
+#Python Program to show range() basics
+
+# printing number
+for i in range(10):
+     print(i, end =" ")
+print()
+
+# using range for iteration
+l = [10, 20, 30, 40]
+for i in range(len(l)):
+     print(l[i], end =" ")
+print()
+
+# performing sum of natural number
+sum = 0
+for i in range(1, 11):
+     sum = sum + i
+print("Sum of first 10 natural number :", sum)
+</pre>
+</code>
+Output:
+<pre>
+0 1 2 3 4 5 6 7 8 9 
+10 20 30 40 
+Sum of first 10 natural number : 55
+</pre>
                               </div>
                          </div>
                     </div>
